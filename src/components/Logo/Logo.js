@@ -6,11 +6,11 @@ import './Logo.css';
 const Logo = () => {
     return (
         <div className='ma4 mt0 center'>
-            <Tilt className='Tilt br2 shadow-2' options={{max: 35}} style={{ height: 150, width: 150}}>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-Uhh06D84Uw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            <Tilt className='Tilt br2 shadow-2' options={{max: 35}} style={{ height: 150, width: 150}}>
                 <div className="Tilt-inner">
                    <img alt = 'brands' src={brandImage}></img>
                 </div> 
-            </Tilt>        
+            </Tilt>  
         </div>
     );
 }

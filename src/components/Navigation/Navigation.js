@@ -1,5 +1,11 @@
 import React from 'react';
 
+
+/**
+ * Function that changes the screen the user is on based off of which button they click.
+ * @param  {onRouteChange} 
+ * @param  {isSignedIn}   
+ */
 const Navigation = ({onRouteChange, isSignedIn}) => {
         if(isSignedIn){
             return(
