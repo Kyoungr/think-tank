@@ -1,10 +1,39 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# CSCI495-C2
+
+## Description / Purpose
+The purpose of this project was for me to get my feet wet with building React components and implementing them within a react web application. I wanted to challenge myself with my current full stack knowlege and expand it by using a different server and database. I found it to be very frustrating reading over documentation I knew was obsolete but express does get the job done. 
+
+
+## Dependencies
+- "bcrypt-nodejs": "0.0.3"
+- "body-parser": "^1.19.0"
+- "cors": "^2.8.5"
+- "express": "^4.17.1"
+- "knex": "^0.19.5"
+- "nodemon": "^1.19.3"
+- "pg": "^7.12.1"
+- "react": "^16.9.0"
+- "react-dom": "^16.9.0"
+- "react-scripts": "3.1.2"
+- "react-tilt": "^0.1.4"
+- "tachyons": "^4.11.1"
+
+## Usage
+You will be able to use this application to host your front end react application with an express server. You can also gain valuable full stack experience by woring with servers, databases and react technologies.
+
+## Future Work
+This application is a great example of connecting front end development with back end. I will hopefully create a chat bot that allows a user to log in and begin having a conversation with an automated response system. I also would like to include a chat area for future business owners to chat with one another.
+
+## What is your major and how this project is related to your major.
+I am an Information Technology/Information Systems double major with a full time offer as a software engineer. The company I will be working for along with many other companies use react and javascript for their front end languages. Building this web application allowed me to utilize my critial thinking skills and technical knowlege of software to build a simple but powerful web application. I also aspire to build my own website for my small business and this gave me the oppurtunity test out a possible frontend language. 
+
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm run think`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,57 +41,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
